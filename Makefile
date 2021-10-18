@@ -85,3 +85,9 @@ cache:
 
 list:
 	docker-compose exec php php artisan route:list
+
+mix:
+	dc run node npm run dev
+
+npm-install:
+	dc run node npm install
