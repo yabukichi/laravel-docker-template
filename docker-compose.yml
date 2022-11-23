@@ -35,7 +35,7 @@ services:
       
   node:
     image: node:16-alpine
-    container_name: golf_node
+    container_name: node
     volumes:
       - ./server:/var/www
     working_dir: /var/www
